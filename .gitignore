@@ -25,10 +25,8 @@ js/tinymce/plugins/codesample/plugin.js
 imagemanager
 filemanager
 mcmanager
-*.min.js
 *.dev.js
 *.full.js
-*.min.css
 *.dev.less
 skin.less
 skin.ie7.less

@@ -1,23 +1,15 @@
 /* Icons */
 
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css";
+
 @font-face {
-	font-family: 'tinymce';
-	src:url('fonts/tinymce.eot');
-	src:url('fonts/tinymce.eot?#iefix') format('embedded-opentype'),
-		url('fonts/tinymce.woff') format('woff'),
-		url('fonts/tinymce.ttf') format('truetype'),
-		url('fonts/tinymce.svg#tinymce') format('svg');
+	font-family: 'FontAwesome';
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: 'tinymce-small';
-	src:url('fonts/tinymce-small.eot');
-	src:url('fonts/tinymce-small.eot?#iefix') format('embedded-opentype'),
-		url('fonts/tinymce-small.woff') format('woff'),
-		url('fonts/tinymce-small.ttf') format('truetype'),
-		url('fonts/tinymce-small.svg#tinymce') format('svg');
+	font-family: 'FontAwesome';
 	font-weight: normal;
 	font-style: normal;
 }
@@ -25,7 +17,7 @@
 @iconSize: 16px;
 
 .@{prefix}-ico {
-	font-family: 'tinymce', Arial;
+	font-family: 'FontAwesome', Arial;
 	font-style: normal;
 	font-weight: normal;
 	font-variant: normal;
@@ -45,132 +37,132 @@
 }
 
 .@{prefix}-btn-small .@{prefix}-ico {
-	font-family: 'tinymce-small', Arial;
+	font-family: 'FontAwesome', Arial;
 }
 
-.@{prefix}-i-save:before                 { content: "\e000"; }
-.@{prefix}-i-newdocument:before          { content: "\e001"; }
-.@{prefix}-i-fullpage:before             { content: "\e002"; }
-.@{prefix}-i-alignleft:before            { content: "\e003"; }
-.@{prefix}-i-aligncenter:before          { content: "\e004"; }
-.@{prefix}-i-alignright:before           { content: "\e005"; }
-.@{prefix}-i-alignjustify:before         { content: "\e006"; }
-.@{prefix}-i-alignnone:before            { content: "\e003"; }
-.@{prefix}-i-cut:before                  { content: "\e007"; }
-.@{prefix}-i-paste:before                { content: "\e008"; }
-.@{prefix}-i-searchreplace:before        { content: "\e009"; }
-.@{prefix}-i-bullist:before              { content: "\e00a"; }
-.@{prefix}-i-numlist:before              { content: "\e00b"; }
-.@{prefix}-i-indent:before               { content: "\e00c"; }
-.@{prefix}-i-outdent:before              { content: "\e00d"; }
-.@{prefix}-i-blockquote:before           { content: "\e00e"; }
-.@{prefix}-i-undo:before                 { content: "\e00f"; }
-.@{prefix}-i-redo:before                 { content: "\e010"; }
-.@{prefix}-i-link:before                 { content: "\e011"; }
-.@{prefix}-i-unlink:before               { content: "\e012"; }
-.@{prefix}-i-anchor:before               { content: "\e013"; }
-.@{prefix}-i-image:before                { content: "\e014"; }
-.@{prefix}-i-media:before                { content: "\e015"; }
-.@{prefix}-i-help:before                 { content: "\e016"; }
-.@{prefix}-i-code:before                 { content: "\e017"; }
-.@{prefix}-i-insertdatetime:before       { content: "\e018"; }
-.@{prefix}-i-preview:before              { content: "\e019"; }
-.@{prefix}-i-forecolor:before            { content: "\e01a"; }
-.@{prefix}-i-backcolor:before            { content: "\e01a"; }
-.@{prefix}-i-table:before                { content: "\e01b"; }
-.@{prefix}-i-hr:before                   { content: "\e01c"; }
-.@{prefix}-i-removeformat:before         { content: "\e01d"; }
-.@{prefix}-i-subscript:before            { content: "\e01e"; }
-.@{prefix}-i-superscript:before          { content: "\e01f"; }
-.@{prefix}-i-charmap:before              { content: "\e020"; }
-.@{prefix}-i-emoticons:before            { content: "\e021"; }
-.@{prefix}-i-print:before                { content: "\e022"; }
-.@{prefix}-i-fullscreen:before           { content: "\e023"; }
-.@{prefix}-i-spellchecker:before         { content: "\e024"; }
-.@{prefix}-i-nonbreaking:before          { content: "\e025"; }
-.@{prefix}-i-template:before             { content: "\e026"; }
-.@{prefix}-i-pagebreak:before            { content: "\e027"; }
-.@{prefix}-i-restoredraft:before         { content: "\e028"; }
-.@{prefix}-i-bold:before                 { content: "\e02a"; }
-.@{prefix}-i-italic:before               { content: "\e02b"; }
-.@{prefix}-i-underline:before            { content: "\e02c"; }
-.@{prefix}-i-strikethrough:before        { content: "\e02d"; }
-.@{prefix}-i-visualchars:before          { content: "\e02e"; }
-.@{prefix}-i-visualblocks:before         { content: "\e02e"; }
-.@{prefix}-i-ltr:before                  { content: "\e02f"; }
-.@{prefix}-i-rtl:before                  { content: "\e030"; }
-.@{prefix}-i-copy:before                 { content: "\e031"; }
-.@{prefix}-i-resize:before               { content: "\e032"; }
-.@{prefix}-i-browse:before               { content: "\e034"; }
-.@{prefix}-i-pastetext:before            { content: "\e035"; }
-.@{prefix}-i-rotateleft:before           { content: "\eaa8"; }
-.@{prefix}-i-rotateright:before          { content: "\eaa9"; }
-.@{prefix}-i-crop:before                 { content: "\ee78"; }
-.@{prefix}-i-editimage:before            { content: "\e915"; }
-.@{prefix}-i-options:before              { content: "\ec6a"; }
-.@{prefix}-i-flipv:before                { content: "\eaaa"; }
-.@{prefix}-i-fliph:before                { content: "\eaac"; }
-.@{prefix}-i-zoomin:before               { content: "\eb35"; }
-.@{prefix}-i-zoomout:before              { content: "\eb36"; }
-.@{prefix}-i-sun:before                  { content: "\eccc"; }
-.@{prefix}-i-moon:before                 { content: "\eccd"; }
-.@{prefix}-i-arrowleft:before            { content: "\edc0"; }
-.@{prefix}-i-arrowright:before           { content: "\e93c"; }
-.@{prefix}-i-drop:before                 { content: "\e935"; }
-.@{prefix}-i-contrast:before             { content: "\ecd4"; }
-.@{prefix}-i-sharpen:before              { content: "\eba7"; }
-.@{prefix}-i-resize2:before              { content: "\edf9"; }
-.@{prefix}-i-orientation:before          { content: "\e601"; }
-.@{prefix}-i-invert:before               { content: "\e602"; }
-.@{prefix}-i-gamma:before                { content: "\e600"; }
-.@{prefix}-i-remove:before               { content: "\ed6a"; }
-.@{prefix}-i-tablerowprops:before        { content: "\e604"; }
-.@{prefix}-i-tablecellprops:before       { content: "\e605"; }
-.@{prefix}-i-table2:before               { content: "\e606"; }
-.@{prefix}-i-tablemergecells:before      { content: "\e607"; }
-.@{prefix}-i-tableinsertcolbefore:before { content: "\e608"; }
-.@{prefix}-i-tableinsertcolafter:before  { content: "\e609"; }
-.@{prefix}-i-tableinsertrowbefore:before { content: "\e60a"; }
-.@{prefix}-i-tableinsertrowafter:before  { content: "\e60b"; }
-.@{prefix}-i-tablesplitcells:before      { content: "\e60d"; }
-.@{prefix}-i-tabledelete:before          { content: "\e60e"; }
-.@{prefix}-i-tableleftheader:before      { content: "\e62a"; }
-.@{prefix}-i-tabletopheader:before       { content: "\e62b"; }
-.@{prefix}-i-tabledeleterow:before       { content: "\e800"; }
-.@{prefix}-i-tabledeletecol:before       { content: "\e801"; }
-.@{prefix}-i-codesample:before           { content: "\e603"; }
-.@{prefix}-i-fill:before                 { content: "\e902"; }
-.@{prefix}-i-borderwidth:before          { content: "\e903"; }
-.@{prefix}-i-line:before                 { content: "\e904"; }
-.@{prefix}-i-count:before                { content: "\e905"; }
-.@{prefix}-i-translate:before            { content: "\e907"; }
-.@{prefix}-i-drag:before                 { content: "\e908"; }
-.@{prefix}-i-home:before                 { content: "\e90b"; }
-.@{prefix}-i-upload:before               { content: "\e914"; }
-.@{prefix}-i-bubble:before               { content: "\e91c"; }
-.@{prefix}-i-user:before                 { content: "\e91d"; }
-.@{prefix}-i-lock:before                 { content: "\e926"; }
-.@{prefix}-i-unlock:before               { content: "\e927"; }
-.@{prefix}-i-settings:before             { content: "\e928"; }
-.@{prefix}-i-remove2:before              { content: "\e92a"; }
-.@{prefix}-i-menu:before                 { content: "\e92d"; }
-.@{prefix}-i-warning:before              { content: "\e930"; }
-.@{prefix}-i-question:before             { content: "\e931"; }
-.@{prefix}-i-pluscircle:before           { content: "\e932"; }
-.@{prefix}-i-info:before                 { content: "\e933"; }
-.@{prefix}-i-notice:before               { content: "\e934"; }
-.@{prefix}-i-arrowup:before              { content: "\e93b"; }
-.@{prefix}-i-arrowdown:before            { content: "\e93d"; }
-.@{prefix}-i-arrowup2:before             { content: "\e93f"; }
-.@{prefix}-i-arrowdown2:before           { content: "\e940"; }
-.@{prefix}-i-menu2:before                { content: "\e941"; }
-.@{prefix}-i-newtab:before               { content: "\e961"; }
-.@{prefix}-i-a11y:before                 { content: "\e900"; }
-.@{prefix}-i-plus:before                 { content: "\e93a"; }
-.@{prefix}-i-minus:before                { content: "\e939"; }
-.@{prefix}-i-books:before                { content: "\e911"; }
+.@{prefix}-i-save:before                 { content: "\f0c7"; }
+.@{prefix}-i-newdocument:before          { content: "\f016"; }
+.@{prefix}-i-fullpage:before             { content: "\f013"; }
+.@{prefix}-i-alignleft:before            { content: "\f036"; }
+.@{prefix}-i-aligncenter:before          { content: "\f037"; }
+.@{prefix}-i-alignright:before           { content: "\f038"; }
+.@{prefix}-i-alignjustify:before         { content: "\f039"; }
+.@{prefix}-i-alignnone:before            { content: "\f036"; }
+.@{prefix}-i-cut:before                  { content: "\f0c4"; }
+.@{prefix}-i-paste:before                { content: "\f0ea"; }
+.@{prefix}-i-searchreplace:before        { content: "\f1e5"; }
+.@{prefix}-i-bullist:before              { content: "\f0ca"; }
+.@{prefix}-i-numlist:before              { content: "\f0cb"; }
+.@{prefix}-i-indent:before               { content: "\f03c"; }
+.@{prefix}-i-outdent:before              { content: "\f03b"; }
+.@{prefix}-i-blockquote:before           { content: "\f10d"; }
+.@{prefix}-i-undo:before                 { content: "\f112"; }
+.@{prefix}-i-redo:before                 { content: "\f064"; }
+.@{prefix}-i-link:before                 { content: "\f0c1"; }
+.@{prefix}-i-unlink:before               { content: "\f127"; }
+.@{prefix}-i-anchor:before               { content: "\f097"; }
+.@{prefix}-i-image:before                { content: "\f03e"; }
+.@{prefix}-i-media:before                { content: "\f008"; }
+.@{prefix}-i-help:before                 { content: "\f059"; }
+.@{prefix}-i-code:before                 { content: "\f1c9"; }
+.@{prefix}-i-insertdatetime:before       { content: "\f017"; }
+.@{prefix}-i-preview:before              { content: "\f06e"; }
+.@{prefix}-i-forecolor:before            { content: "\f031"; }
+.@{prefix}-i-backcolor:before            { content: "\f031"; }
+.@{prefix}-i-table:before                { content: "\f0ce"; }
+.@{prefix}-i-hr:before                   { content: "\2014"; }
+.@{prefix}-i-removeformat:before         { content: "\f070"; }
+.@{prefix}-i-subscript:before            { content: "\f12c"; }
+.@{prefix}-i-superscript:before          { content: "\f12b"; }
+.@{prefix}-i-charmap:before              { content: "\03A9"; }
+.@{prefix}-i-emoticons:before            { content: "\f118"; }
+.@{prefix}-i-print:before                { content: "\f02f"; }
+.@{prefix}-i-fullscreen:before           { content: "\f0b2"; }
+.@{prefix}-i-spellchecker:before         { content: "\f02d"; }
+.@{prefix}-i-nonbreaking:before          { content: "\23b5"; }
+.@{prefix}-i-template:before             { content: "\f1c9"; }
+.@{prefix}-i-pagebreak:before            { content: "\fe4d"; }
+.@{prefix}-i-restoredraft:before         { content: "\f1da"; }
+.@{prefix}-i-bold:before                 { content: "\f032"; }
+.@{prefix}-i-italic:before               { content: "\f033"; }
+.@{prefix}-i-underline:before            { content: "\f0cd"; }
+.@{prefix}-i-strikethrough:before        { content: "\f0cc"; }
+.@{prefix}-i-visualchars:before          { content: "\f1dd"; }
+.@{prefix}-i-visualblocks:before         { content: "\f1dd"; }
+.@{prefix}-i-ltr:before                  { content: "\2348"; }
+.@{prefix}-i-rtl:before                  { content: "\2347"; }
+.@{prefix}-i-copy:before                 { content: "\f0c5"; }
+.@{prefix}-i-resize:before               { content: "\2834"; }
+.@{prefix}-i-browse:before               { content: "\f002"; }
+.@{prefix}-i-pastetext:before            { content: "\f0ea"; }
+.@{prefix}-i-rotateleft:before           { content: "\f0e2"; }
+.@{prefix}-i-rotateright:before          { content: "\f01e"; }
+.@{prefix}-i-crop:before                 { content: "\f125"; }
+.@{prefix}-i-editimage:before            { content: "\f044"; }
+.@{prefix}-i-options:before              { content: "\f0c9"; }
+.@{prefix}-i-flipv:before                { content: "\293b"; }
+.@{prefix}-i-fliph:before                { content: "\2939"; }
+.@{prefix}-i-zoomin:before               { content: "\f00e"; }
+.@{prefix}-i-zoomout:before              { content: "\f010"; }
+.@{prefix}-i-sun:before                  { content: "\f185"; }
+.@{prefix}-i-moon:before                 { content: "\f186"; }
+.@{prefix}-i-arrowleft:before            { content: "\f053"; }
+.@{prefix}-i-arrowright:before           { content: "\f054"; }
+.@{prefix}-i-drop:before                 { content: "\f043"; }
+.@{prefix}-i-contrast:before             { content: "\f042"; }
+.@{prefix}-i-sharpen:before              { content: "\f219"; }
+.@{prefix}-i-resize2:before              { content: "\2921"; }
+.@{prefix}-i-orientation:before          { content: "\27f2"; }
+.@{prefix}-i-invert:before               { content: "\f056"; }
+.@{prefix}-i-gamma:before                { content: "\0263"; }
+.@{prefix}-i-remove:before               { content: "\f00d"; }
+.@{prefix}-i-tablerowprops:before        { content: "\f141"; }
+.@{prefix}-i-tablecellprops:before       { content: "\f0c8"; }
+.@{prefix}-i-table2:before               { content: "\f00a"; }
+.@{prefix}-i-tablemergecells:before      { content: "\f096"; }
+.@{prefix}-i-tableinsertcolbefore:before { content: "\21a4"; }
+.@{prefix}-i-tableinsertcolafter:before  { content: "\21a6"; }
+.@{prefix}-i-tableinsertrowbefore:before { content: "\21a5"; }
+.@{prefix}-i-tableinsertrowafter:before  { content: "\21a7"; }
+.@{prefix}-i-tablesplitcells:before      { content: "\f009"; }
+.@{prefix}-i-tabledelete:before          { content: "\f00d"; }
+.@{prefix}-i-tableleftheader:before      { content: "\f00b"; }
+.@{prefix}-i-tabletopheader:before       { content: "\f0db"; }
+.@{prefix}-i-tabledeleterow:before       { content: "\f00d"; }
+.@{prefix}-i-tabledeletecol:before       { content: "\f00d"; }
+.@{prefix}-i-codesample:before           { content: "\f121"; }
+.@{prefix}-i-fill:before                 { content: "\f1fc"; }
+.@{prefix}-i-borderwidth:before          { content: "\f096"; }
+.@{prefix}-i-line:before                 { content: "\f040"; }
+.@{prefix}-i-count:before                { content: "\f059"; }
+.@{prefix}-i-translate:before            { content: "\f02d"; }
+.@{prefix}-i-drag:before                 { content: "\f142"; }
+.@{prefix}-i-home:before                 { content: "\f015"; }
+.@{prefix}-i-upload:before               { content: "\f093"; }
+.@{prefix}-i-bubble:before               { content: "\f0e5"; }
+.@{prefix}-i-user:before                 { content: "\f007"; }
+.@{prefix}-i-lock:before                 { content: "\f023"; }
+.@{prefix}-i-unlock:before               { content: "\f09c"; }
+.@{prefix}-i-settings:before             { content: "\f1de"; }
+.@{prefix}-i-remove2:before              { content: "\f1f8"; }
+.@{prefix}-i-menu:before                 { content: "\f0c9"; }
+.@{prefix}-i-warning:before              { content: "\f071"; }
+.@{prefix}-i-question:before             { content: "\f128"; }
+.@{prefix}-i-pluscircle:before           { content: "\f055"; }
+.@{prefix}-i-info:before                 { content: "\f05a"; }
+.@{prefix}-i-notice:before               { content: "\f06a"; }
+.@{prefix}-i-arrowup:before              { content: "\f077"; }
+.@{prefix}-i-arrowdown:before            { content: "\f078"; }
+.@{prefix}-i-arrowup2:before             { content: "\f0d8"; }
+.@{prefix}-i-arrowdown2:before           { content: "\f0d7"; }
+.@{prefix}-i-menu2:before                { content: "\f150"; }
+.@{prefix}-i-newtab:before               { content: "\f08e"; }
+.@{prefix}-i-a11y:before                 { content: "\f234"; }
+.@{prefix}-i-plus:before                 { content: "\f067"; }
+.@{prefix}-i-minus:before                { content: "\f068"; }
+.@{prefix}-i-books:before                { content: "\f02d"; }
 .@{prefix}-i-checkbox:before, .@{prefix}-i-selected:before {
-	content: "\e033";
+	content: "\f00c";
 }
 
 .@{prefix}-i-selected              { visibility: hidden; }
